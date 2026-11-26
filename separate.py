@@ -5,8 +5,8 @@ from pydub import AudioSegment
 
 HF_TOKEN = "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"  # Replace with your token
 
-INPUT_FOLDER = "raw"
-OUTPUT_FOLDER = "output"
+INPUT_FOLDER = r"D:\Abba_Voice\raw"
+OUTPUT_FOLDER = r"D:\Abba_Voice\output"
 os.makedirs(OUTPUT_FOLDER, exist_ok=True)
 
 print("Model load ho raha hai...")
